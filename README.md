@@ -81,7 +81,6 @@ AI-Job-Scam-Detector/
 │
 ├── data/
 │   ├── fake_job_postings.csv
-│   └── cleaned_fake_jobs.csv
 │
 ├── notebooks/
 │   └── 01_Data_Exploration_and_Cleaning.ipynb
