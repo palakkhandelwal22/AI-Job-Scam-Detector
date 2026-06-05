@@ -2,7 +2,9 @@
 
 ## Problem Statement
 
-Many students and fresh graduates fall victim to fake job offers and employment scams. This project uses Machine Learning and Natural Language Processing (NLP) techniques to identify fraudulent job postings and help users make safer career decisions.
+Many students and fresh graduates fall victim to fake job offers and employment scams. This project aims to detect fraudulent job postings using Machine Learning and Natural Language Processing (NLP) techniques, helping users identify suspicious job listings and make safer career decisions.
+
+---
 
 ## Dataset
 
@@ -10,39 +12,54 @@ Many students and fresh graduates fall victim to fake job offers and employment 
 
 Source: https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 
-Dataset Size:
+### Dataset Overview
 
-* 17,880 job postings
-* Real and fraudulent job listings
-* Structured and text-based features
+* Total Records: 17,880
+* Target Variable: `fraudulent`
+* Real Job Postings: 17,014
+* Fraudulent Job Postings: 866
 
-## Current Progress
+---
 
-### Completed
+## Project Status
 
-* Project setup and GitHub repository creation
-* Dataset collection and loading
-* Exploratory Data Analysis (EDA)
-* Missing value handling
-* Duplicate value checking
-* Target variable analysis
-* Cleaned dataset generation
+🚧 Data Cleaning Completed | Model Development In Progress
 
-### In Progress
+---
 
-* Text preprocessing
-* Feature engineering
-* Machine Learning model development
+## Progress Log
+
+### Phase 1: Project Setup
+
+* Created GitHub repository
+* Selected project topic
+* Downloaded and organized dataset
+
+### Phase 2: Data Exploration & Cleaning
+
+* Loaded dataset using Pandas
+* Explored dataset structure
+* Analyzed data types and columns
+* Handled missing values
+* Checked and removed inconsistencies
+* Verified duplicate records
+* Analyzed target variable distribution
+* Generated cleaned dataset for further processing
+
+---
 
 ## Planned Features
 
 * Data Cleaning and Preprocessing
-* Exploratory Data Analysis
-* NLP Feature Extraction
+* Exploratory Data Analysis (EDA)
+* Text Processing using NLP
+* Feature Engineering
 * Machine Learning Classification
 * Model Evaluation
 * Streamlit Web Application
-* Scam Detection Dashboard
+* Fraud Detection Dashboard
+
+---
 
 ## Tech Stack
 
@@ -55,18 +72,40 @@ Dataset Size:
 * NLTK
 * Streamlit
 
+---
+
 ## Project Structure
 
 ```text
 AI-Job-Scam-Detector/
 │
 ├── data/
+│   ├── fake_job_postings.csv
+│   └── cleaned_fake_jobs.csv
+│
 ├── notebooks/
+│   └── 01_Data_Exploration_and_Cleaning.ipynb
+│
 ├── models/
+│
 ├── app/
+│
 └── README.md
 ```
 
+---
+
+## Future Scope
+
+* Improve detection accuracy using advanced NLP techniques
+* Compare multiple machine learning models
+* Build an interactive Streamlit dashboard
+* Provide scam risk explanations for users
+
+---
+
 ## Author
 
-Palak Khandelwal
+**Palak Khandelwal**
+
+B.Tech CSE Student | AI & ML Enthusiast
