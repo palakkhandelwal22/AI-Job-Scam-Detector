@@ -45,12 +45,19 @@ if 'scan_history' not in st.session_state:
     st.session_state.scan_history = []
 
 # ── LOAD ML MODEL ─────────────────────────────
+import os
+
 @st.cache_resource
 def load_model():
-    with open('../models/job_scam_detector.pkl', 'rb') as f:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    model_path = os.path.join(base_dir, "..", "models", "job_scam_detector.pkl")
+    tfidf_path = os.path.join(base_dir, "..", "models", "tfidf_vectorizer.pkl")
+
+    with open(model_path, "rb") as f:
         model = pickle.load(f)
 
-    with open('../models/tfidf_vectorizer.pkl', 'rb') as f:
+    with open(tfidf_path, "rb") as f:
         tfidf = pickle.load(f)
 
     return model, tfidf
