@@ -227,7 +227,7 @@ This generates a temporary public URL like `https://abc-xyz.loca.lt` (active whi
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-
+![Homepage](screenshots/homepage.png.jpeg)
 ---
 
 ### 🚨 Fake Job Detection
