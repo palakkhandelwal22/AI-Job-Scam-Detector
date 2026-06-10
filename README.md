@@ -233,57 +233,81 @@ This generates a temporary public URL like `https://abc-xyz.loca.lt` (active whi
 ### 🚨 Fake Job Detection
 
 #### Job Input
+![Fake Job Input](screenshots/fake_job_input.png.jpeg)
+#### Detection Result 
+![Fake Job Result 1](screenshots/fake_job_result1.png.jpeg)
 
-#### Detection Result – Part 1
-
-#### Detection Result – Part 2
+![Fake Job Result 2](screenshots/fake_job_result2.png.jpeg)
 
 #### Warning Analysis
-
+![Fake Job Warning](screenshots/fake_job_warning.png.jpeg)
 ---
 
 ### ✅ Legitimate Job Detection
 
 #### Real Job Input
-
+![Real Job Input](screenshots/real_job_input.png.jpeg)
 #### Result – Part 1
+![Real Job Result 1](screenshots/real_job_result1.png.jpeg)
 
-#### Result – Part 2
+![Real Job Result 2](screenshots/real_job_result2.png.jpeg)
 
 #### Safety Recommendations
-
+![Real Job Safety](screenshots/real_job_safety.png.jpeg)
 ---
 
 ### 📧 Email & Screenshot Scanner
 
 #### Upload Email Screenshot
+![Email Upload 1](screenshots/email_upload1.png.jpeg)
+
+![Email Upload 2](screenshots/email_upload2.png.jpeg)
 
 #### AI Analysis Results
+![Email Result 1](screenshots/email_result1.png.jpeg)
 
+![Email Result 2](screenshots/email_result2.png.jpeg)
 ---
 
 ### 📄 Offer Letter Verification
 
 #### Upload Offer Letter
 
+![Offer Letter Upload 1](screenshots/offerletter1_upload.png.jpeg)
+
+![Offer Letter Upload 2](screenshots/offerletter2_upload.png.jpeg)
+
 #### Verification Results
 
+![Offer Letter Result 1](screenshots/offerletter_result1.png.jpeg)
+
+![Offer Letter Result 2](screenshots/offerletter_result2.png.jpeg)
 ---
 
 ### 🏢 Company Reputation Checker
 
 #### Company Search
-
+![Company Input](screenshots/company_input.png.jpeg)
 #### Analysis Results
+![Company Result 1](screenshots/company_result1.png.jpeg)
+
+![Company Result 2](screenshots/company_result2.png.jpeg)
+
+![Company Result 3](screenshots/company_result3.png.jpeg)
+
+![Company Result 4](screenshots/company_result4.png.jpeg)
 
 ---
 
 ### 🧪 Sample Testing
 
 #### Fake Sample Job
+![Sample Fake Job 1](screenshots/samplefakejob1.png.jpeg)
+![Sample Fake Job 2](screenshots/samplefakejob2.png.jpeg)
 
 #### Real Sample Job
-
+![Sample Real Job 1](screenshots/samplerealjob1.png.jpeg)
+![Sample Real Job 2](screenshots/samplerealjob2.png.jpeg)
 
 ## 🎓 About
 
