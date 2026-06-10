@@ -82,7 +82,7 @@ User pastes job posting → ML model detects fraud probability
 | Frontend | Streamlit (Python) |
 | ML Model | Logistic Regression with `class_weight='balanced'` |
 | NLP / Text Features | TF-IDF Vectorization (5,000 features) + NLTK |
-| AI Explanation | Google Gemini 2.0 Flash API |
+| AI Explanation | Google Gemini 2.5 Flash API |
 | Image Analysis | Gemini Vision API + Pillow (PIL) |
 | Dataset | EMSCAD — Employment Scam Aegean Dataset (Kaggle) |
 | Deployment | VS Code (local) + Streamlit Cloud (permanent public URL) |
