@@ -5,6 +5,8 @@
 
 🔗 **Live App:** https://ai-job-scam-detector-kmnbfck73fegfappzrvdxeq.streamlit.app/
 
+🎥 **Demo Video:** https://drive.google.com/file/d/1I_4bfr2ANk_UAi2Uulo5FHrRsrlQQ50w/view?usp=drivesdk
+
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-red?logo=streamlit)](https://ai-job-scam-detector.streamlit.app)
 [![Gemini AI](https://img.shields.io/badge/Google-Gemini%20AI-orange?logo=google)](https://ai.google.dev)
