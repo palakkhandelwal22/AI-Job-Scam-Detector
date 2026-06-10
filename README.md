@@ -224,6 +224,67 @@ This generates a temporary public URL like `https://abc-xyz.loca.lt` (active whi
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Homepage
+
+---
+
+### 🚨 Fake Job Detection
+
+#### Job Input
+
+#### Detection Result – Part 1
+
+#### Detection Result – Part 2
+
+#### Warning Analysis
+
+---
+
+### ✅ Legitimate Job Detection
+
+#### Real Job Input
+
+#### Result – Part 1
+
+#### Result – Part 2
+
+#### Safety Recommendations
+
+---
+
+### 📧 Email & Screenshot Scanner
+
+#### Upload Email Screenshot
+
+#### AI Analysis Results
+
+---
+
+### 📄 Offer Letter Verification
+
+#### Upload Offer Letter
+
+#### Verification Results
+
+---
+
+### 🏢 Company Reputation Checker
+
+#### Company Search
+
+#### Analysis Results
+
+---
+
+### 🧪 Sample Testing
+
+#### Fake Sample Job
+
+#### Real Sample Job
+
+
 ## 🎓 About
 
 **Project:** IBM SkillsBuild × AICTE Artificial Intelligence Internship 2026 — Capstone Project
