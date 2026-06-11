@@ -194,20 +194,6 @@ The app is deployed on **Streamlit Cloud** and is accessible 24/7 at:
    ```
 5. Clicked **Deploy** — live in under 2 minutes
 
-### 💻 Google Colab + Localtunnel (Alternative)
-
-A Colab deployment notebook is also included for reference.
-See `notebooks/Deployment.ipynb`
-
-```python
-# Run in Google Colab
-!pip install streamlit google-generativeai nltk scikit-learn Pillow -q
-!npm install localtunnel
-!streamlit run app.py &>/content/logs.txt & npx localtunnel --port 8501
-```
-
-This generates a temporary public URL like `https://abc-xyz.loca.lt` (active while Colab session is running).
-
 ---
 
 ## 🔑 API Key Management
@@ -221,7 +207,6 @@ This generates a temporary public URL like `https://abc-xyz.loca.lt` (active whi
   ```
   GOOGLE_API_KEY = "your_actual_gemini_api_key_here"
   ```
-- **Colab deployment:** paste key directly in the notebook cell (notebook not pushed to GitHub)
 - **Free tier:** Gemini API is free — if quota runs out, get a new free key from [aistudio.google.com](https://aistudio.google.com) and update it in Streamlit Cloud secrets
 
 ---
